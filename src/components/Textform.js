@@ -20,7 +20,7 @@ export default function TextForm(props) {
 
   return (
     <>
-      <div className="container">
+      <div className="container my-5">
         <h1>{props.headding}</h1>
         <div className="mb-3">
           <textarea
@@ -34,10 +34,10 @@ export default function TextForm(props) {
         <div className="btn btn-primary" onClick={handleUpClick}>
           Convert to UpperCase
         </div>
-        <div className="btn btn-info ml-3" onClick={handleLoClick}>
+        <div className="btn btn-info mx-3 text-light" onClick={handleLoClick}>
           Convert to LowerCase
         </div>
-        <div className="btn btn-danger ml-3" onClick={handleClearClick}>
+        <div className="btn btn-danger " onClick={handleClearClick}>
           Clear
         </div>
       </div>
