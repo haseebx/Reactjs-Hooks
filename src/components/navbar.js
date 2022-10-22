@@ -7,9 +7,9 @@ export default function navbar(props) {
       className={`navbar navbar-expand-lg navbar-${props.Mode} bg-${props.Mode} mt-2`}
     >
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           E-Ustaad
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
